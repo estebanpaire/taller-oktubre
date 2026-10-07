@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=New+Rocker&display=swap');* {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    background-color: #000000;
+    color:aliceblue
+}
+
+
+
+
+h1 {
+    color: #ff0000;
+    font-size: 32px;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 50;
+    
+}
+
+#Inicio {
+    font-size:72px;
+    letter-spacing: 4px;
+    font-family: "New Rocker", system-ui;
+    text-align: center;
+}
+
+h2  {
+    color: #bbbaba;
+    font-size: 28px;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 50;
+}
+
+button {
+    font-size: 32px;
+    color:#ff0000;
+    background-color: #000000;
+    font-family: "New Rocker", system-ui;
+    
+}
+
+a {
+    font-size: 28px;
+    color:#ff0000;
+    font-family: "New Rocker", system-ui;
+    box-shadow: 10px 10px 5px -5px rgba(199,199,199,1);
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(199,199,199,1);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(199,199,199,1);
+    
+}
+
+.btn {
+    font-size: 28px;
+    color:#ff0000;
+    background-color: #000000;
+    font-family: "New Rocker", system-ui;
+    box-shadow: 10px 10px 5px -5px rgba(199,199,199,1);
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(199,199,199,1);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(199,199,199,1);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}

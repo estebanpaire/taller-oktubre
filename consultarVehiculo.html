@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Consultá tu vehículo</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
@@ -11,11 +12,9 @@
     <h1 id="Inicio">TALLER OKTUBRE</h1>
     <nav>
         <ul>
-        <li><a href="#Inicio">Inicio</a></li>
-        <li><a href="#Funcionamiento">Cómo funciona</a></li>
-        <li><a href="#Seguimiento">Seguimiento</a></li>
-        <li><a href="#Contacto">Contacto</a></li>
-        <li><button><a href="index.html">Volver al inicio</a></button></li>
+            
+        <li><a class="btn" href="index.html">Volver al inicio</a></li>
+
         </ul>
     </nav>
     </header>
@@ -30,7 +29,7 @@
         Ingresá la patente para acceder al progreso del trabajo en tiempo real.
     </h2>
     <form>
-        <label for="patente">Patente</label>
+        <label for="patente">Patente:</label>
         <input 
         type="text" 
         placeholder="AB 123 CD"
@@ -45,12 +44,13 @@
         <span>¿No encontrás tu vehículo? <a href="#Contacto">Contactanos</a></span>
     </main>
     <br />
+    
     <footer> 
         <ul>
             <li><strong>Usá la patente del vehículo</strong> <br>
             <span>La que figura en la recepción del taller</span></li>
             <br/>
-            <li><strong>Datos en tiempo real</strong> >
+            <li><strong>Datos en tiempo real</strong> <br>
             <span>El estado se actualiza a medida que avanza el trabajo</span></li>
             <br/>            
         </ul>
