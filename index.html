@@ -9,30 +9,32 @@
   </head>
 
   <body>
-    <header>
-      <h1 id="Inicio">TALLER OKTUBRE</h1>
-      <nav>
-        <ul>
-          <li><a href="#Inicio">Inicio</a></li>
-          <li><a href="#Funcionamiento">Cómo funciona</a></li>
-          <li><a href="#Seguimiento">Seguimiento</a></li>
-          <li><a href="#Contacto">Contacto</a></li>
-          <li>
-              <a class="btn" href="consultarVehiculo.html">Consultar Vehículo</a>
-            
-          </li>
-        </ul>
+    <header id="Inicio" >
+      <a href="#Inicio">
+        <span class="title-normal">TALLER</span> 
+        <span class="title-brand">OKTUBRE</span>
+      </a>
+      
+      <nav class="nav-inicio">
+          <a href="#Inicio">Inicio</a>
+          <a href="#Funcionamiento">Cómo funciona</a>
+          <a href="#Seguimiento">Seguimiento</a>
+          <a href="#Contacto">Contacto</a>
+          
       </nav>
-      <hr />
+      <a class="btn-inicio" href="consultarVehiculo.html">Consultar Vehículo</a>
+  
     </header>
-    <br />
+    
+  
     <main>
-      <section>
-        <h1>Seguimiento digital de tu vehículo</h1>
-        <h2>Tu auto. Tu proceso.</h2>
-        <h2>Siempre visible.</h2>
-      </section>
-      <br />
+      <div class="hero">
+        <span class="hero-info">Mecánica - Transparencia - Pasión</span>
+
+        <h1 class="hero-titulo">TU VEHÍCULO.</h1>
+        <h2 class="hero-titulo2">TU PROCESO.</h2>
+        <h2 class="hero-subtitulo">Siempre visible.</h2>
+      
 
       <p>
         Seguí el trabajo de tu vehículo en tiempo real, consultá su estado y
@@ -41,73 +43,91 @@
 
       <br />
 
-        <a class="btn" href="consultarVehiculo.html">Consultar Vehículo</a>
+        <a class="hero-btn" href="consultarVehiculo.html">Consultar Vehículo →</a>
 
       <br/><br/>
 
-        <a href="#Funcionamiento">Cómo funciona</a>
-
-      <br /><br /><br />
-      <section>
-        <hr />
-        <h2 id="Funcionamiento">¿Cómo funciona?</h2>
+        <a class="funcionamiento-btn" href="#Funcionamiento">Cómo funciona</a>
+      
+      </div>
+      <hr>
+      <section class="como-funciona" id="Funcionamiento">
+        <h2>¿Cómo funciona?</h2>
 
         <h3>Tres pasos para tener visibilidad total de tu vehículo</h3>
+        <br>
 
-        <ol>
-          <li>
-            <strong>Buscá tu vehículo</strong>
+        <ol class="pasos-funcionamiento">
+          <li class="tarjeta-funcionamiento"> 
+            <span>01</span>
+            
+            <p>Buscá tu vehículo</p>
             <span>Ingresá la patente para acceder al seguimiento.</span>
           </li>
 
-          <li>
-            <strong>Seguí el proceso</strong>
+          <li class="tarjeta-funcionamiento">
+            <span>02</span>
+            <p>Seguí el proceso</p>
             <span>Consultá el estado y las etapas del trabajo.</span>
           </li>
 
-          <li>
-            <strong>Vé las actualizaciones</strong>
+          <li class="tarjeta-funcionamiento">
+            <span>03</span>
+            <p>Vé las actualizaciones</p>
             <span>Accedé a fotos, comentarios y novedades del taller.</span>
           </li>
         </ol>
       </section>
     </main>
-    <img
-      src="https://i.ytimg.com/vi/rQAm0OWeQZY/maxresdefault.jpg"
-      alt="Oktubre"
-    />
-    <hr />
-    <h2>Más transparencia. Menos incertidumbre.</h2>
-    <p>
-      Sabé qué está pasando con tu vehículo sin necesidad de llamar al taller.
-    </p>
-    <br />
-    <ul>
-      <li><strong>+500</strong> vehículos gestionados.</li>
+    
 
-      <li><strong>100%</strong> seguimiento digital.</li>
+    <section class="div-mas-transparencia" id="Seguimiento">
 
-      <li>
-        <strong>!!!</strong> Actualizaciones en tiempo real
-        <strong>!!!</strong>
-      </li>
-      <br />
-      <hr />
-    </ul>
-    <h1 id="Seguimiento">¿Querés saber cómo está tu vehículo?</h1>
-      <a class="btn" href="consultarVehiculo.html">Consultar Vehículo</a>
-    <br /><br /><br /><br />
-    <hr />
+    <div class="transparencia-contenido">
+
+        <!-- TEXTO A LA IZQUIERDA -->
+        <div class="transparencia-texto">
+
+            <h2 class="h2-mas-transparencia">
+                Más transparencia.
+            </h2>
+
+            <h2 class="h2-menos-incertidumbre">
+                Menos incertidumbre.
+            </h2>
+
+            <p>
+                Sabé qué está pasando con tu vehículo
+                sin necesidad de llamar al taller.
+                Consultá el estado y las actualizaciones
+                desde cualquier lugar.
+            </p>
+
+            <a class="ver-seguimiento-btn"
+              href="consultarVehiculo.html">
+                Ver seguimiento →
+            </a>
+
+        </div>
+
+        <!-- IMAGEN A LA DERECHA -->
+        <div class="transparencia-imagen">
+            <img src="images/indio.png" alt="Imagen de Oktubre">
+        </div>
+
+    </div>
+
+  </section>
+
+
+    <br /><br /><br />
+    
     <footer>
-      <h4>TALLER OKTUBRE</h4>
-      <span>Tecnología para una experiencia de taller más transparente.</span>
-      <nav>
-        <ul>
-          <li><a href="#Inicio">Inicio</a></li>
-          <li><a href="#Seguimiento">Seguimiento</a></li>
-          <li><a href="#Contacto">Contacto</a></li>
-        </ul>
-      </nav>
+      <a href="#Inicio">
+        <span class="title-footer">TALLER OKTUBRE</span>
+      </a>
+      <span class="info-footer">Tecnología para una experiencia de taller más transparente.</span>
+
     </footer>
   </body>
 </html>
